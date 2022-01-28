@@ -1,3 +1,5 @@
+Florian MILLER
+
 # Basic unit testing with Jest
 
 ## Installer NodeJS
