@@ -8,4 +8,4 @@ jobs:
       - run: sudo apt install nodejs
       - run: git clone "https://github.com/fmillerwork/basic-unit-tests-jest.git"
       - run: npm install -g bats
-      - run: npm test -g bats
+      - run: npm test -g
