@@ -1,7 +1,13 @@
 name: GitHub Actions Demo
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Node-install:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello world!"
+      - run: pkg install node
+      - run: git clone "https://github.com/fmillerwork/basic-unit-tests-jest.git"
+      - run: cd basic-unit-tests-jest
+      - run: npm init
+      - run: npm install
+      - run: npm test
