@@ -7,6 +7,5 @@ jobs:
       - run: echo "Hello world!"
       - run: sudo apt install nodejs
       - run: git clone "https://github.com/fmillerwork/basic-unit-tests-jest.git"
-      - run: cd basic-unit-tests-jest
       - run: npm install
       - run: npm test
